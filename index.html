@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  background-image: url("https://i.imgur.com/QjlSzIF.jpg");
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2{
+    text-shadow: -1px 0 #ccd9f9, 0 2px #ccd9f9, 2px 0 #ccd9f9, 0 -1px #ccd9f9;
+}
+
+p{
+    text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+}
+
+
+.whitebox {
+	width: 100%;
+	background-color: rgba(188, 188, 188, 0.5);
+	color: #161616;
+    margin-top: 200px;
+}
+.skybluebox {
+	width: 100%;
+	background-color: rgba(188, 188, 188, 0.5);
+	color: #161616;
+    margin-top:200px;
+}
+
+.paragraph{
+    position: absolute;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+.lightgreybox {
+	width: 100%;
+	background-color: rgba(188, 188, 188, 0.5);
+	color: #161616;
+    margin-top: 200px;
+}
+
+.greenbox {
+	width: 100%;
+	background-color: rgba(188, 188, 188, 0.5);
+	color: #161616;
+    margin-top:200px;
+}
+
+.purplebox {
+	width: 100%;
+	background-color: rgba(188, 188, 188, 0.5);
+	color: #161616;
+    margin-top: 200px;
+}
+
+
+
+
+.content {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+.header {
+  background-image: url("https://4.bp.blogspot.com/-CFCv3pvnfaw/V3Tt92D8fhI/AAAAAAAACrg/S-9r0hJmYDUYGmiL5PZT2gmn73DZgKKJgCLcB/s1600/sunrise%2Bwallpapers%2BHD%2B1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  opacity: .7;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #e0e9fc;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #eef3fd;
+  color: blue;
+  opacity: .8;
+}
+
+.personallink {
+	color: white;
+	font-size: 25px;
+	border: 1px solid #161616;
+	padding: 12px 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	background-color: white;
+    width: 500px;
+    margin-left: 35.5%;
+    text-align: center;
+}
+.personallink:hover {
+	background-color: #bfbfbf;
+	transition: 0.3s;
+}
+
+
+
+.Q1link {
+	color: white;
+	font-size: 25px;
+	border: 1px solid #161616;
+	padding: 12px 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	background-color: white;
+    width: 500px;
+    margin-left: 35.5%;
+    text-align: center;
+}
+.Q1link:hover {
+	background-color: #bfbfbf;
+	transition: 0.3s;
+}
+
+
+.Q2link {
+	color: white;
+	font-size: 25px;
+	border: 1px solid #161616;
+	padding: 12px 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	background-color: white;
+    width: 500px;
+    margin-left: 35.5%;
+    text-align: center;
+}
+.Q2link:hover {
+	background-color: #bfbfbf;
+	transition: 0.3s;
+}
+
+.Q3link {
+	color: white;
+	font-size: 25px;
+	border: 1px solid #161616;
+	padding: 12px 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	background-color: white;
+    width: 500px;
+    margin-left: 35.5%;
+    text-align: center;
+}
+.Q3link:hover {
+	background-color: #bfbfbf;
+	transition: 0.3s;
+}
+
+.Q4link {
+	color: white;
+	font-size: 25px;
+	border: 1px solid #161616;
+	padding: 12px 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	background-color: white;
+    width: 500px;
+    margin-left: 35.5%;
+    text-align: center;
+}
+.Q4link:hover {
+	background-color: #bfbfbf;
+	transition: 0.3s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.crtcimage{
+    size: 10%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>CTE Portfolio</h2><br>
+  <a href = "https://www.education.nh.gov/career/career/documents/pc_info_cp.pdf">
+      <img src = "http://nh-cte.org/wp-content/uploads/2016/08/NHCTE_1000.png">
+  </a>
+  <div class = "crtcimage">
+    <img src = "http://nebula.wsimg.com/52b6670852b839d7ed61ea6bfd65799c?AccessKeyId=5F0F05F3F90CAB029D15&disposition=0&alloworigin=1" >
+  </div>
+  <p>Lance Mullen</p>
+</div>
+
+
+
+
+<div class="content"> 
+<div class="whitebox">
+				<h2>Who I Am</h2>
+				<div class="paragraphs">
+					<p>I'm just a kid who loves computers. I've been programming and coding since <br>middle school and I've taught mutilpe classes to kids as well. <br></p>
+					<p>I know a few languages such as<br> >>Python<br>>>HTML<br>>>C++<br>>>Javascript<br>>>And learning C Sharp</p>
+					<br>
+					<br>
+					<div class = "personallink">
+	                    <a href = "PersonalPage.html">>>My Page</a>
+	                </div>
+	                <br>
+				</div>
+			</div>
+			
+			
+			
+
+<div class="skybluebox">
+	<h2><br>Q1</h2>
+<div class="paragraphs">
+	<p>Quarter 1 was the start of the entire program.<br>>>Bits and Bytes<br>>>Data Abstraction<br></p>
+	<p>We also read a little of blown to bits with a project<br>>>Phone App Project<br><br></p>
+	<div class = "Q1link">
+	    <a href = "Q1.html">>>Q1 Page</a>
+	</div>
+	<br>
+	<br>
+</div>
+</div>
+
+
+
+
+<div class="lightgreybox">
+	<h2>Q2</h2>
+<div class="paragraphs">
+	<p>In quarter 2 we started to do more python<br>we did things such as<br>>>Tuples<br>>>lists<br>>>Classses<br>We also had a project to make an adventure game<br></p>
+    <div class = "Q2link">
+        <a href = "Q2.html">>>Q2 Page</a>
+    </div>
+	<br>
+	<br>
+</div>
+</div>
+
+
+
+
+<div class="greenbox">
+    <h2>Q3</h2>
+<div class="paragraphs">
+    <p>In Quarter 3 we talked a lot more about our futures<br>We had a field trip to talk to people who<br>>>Worked in cybersecurity<br>>>Work in factory engineering<br>>>Teach Computer Science<br><br>Most of the things we talked about for work were<br>>>Object oriented programming<br>>>Networking<br>>>Cyber security<br>>>Web Basics<br><br></p>
+    <div class = "Q3link">
+	    <a href = "Q3.html">>>Q3 Page</a>
+	</div>
+	<br>
+	<br>
+</div>
+</div>
+
+
+
+
+<div class="purplebox">
+    <h2>Q4</h2>
+<div class="paragraphs">
+    <p>In Quarter 4 we talked more frequently about how to program using<br>>>HTML<br>>>MYSQL<br>>>CSS<br>>>And more small external sources<br><br>This unit included a lot of reflection<br>It also included this website project</p>
+    <div class = "Q4link">
+	    <a href = "Q4.html">>>Q4 Page</a>
+	</div>
+	<br>
+	<br>
+</div>
+</div>
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!--
+anything I might need later
+
+
+MY PICTURE FOLDER URL 
+https://drive.google.com/drive/folders/1eEcVR4dbNtWjKbM0fea0wwhQcuGZjoUX?usp=sharing
+
+
+
+Google maps code to concord high school
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d93069.84290257822!2d-71.62121484283344!3d43.20041523758297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e26abd24b8e9a5%3A0x1d17894b66fe87c5!2sconcord+high+school!3m2!1d43.200436599999996!2d-71.551175!5e0!3m2!1sen!2sus!4v1527005977242" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+Competency pdf
+https://www.education.nh.gov/career/career/documents/pc_info_cp.pdf
+
+
+-->
